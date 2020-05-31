@@ -3,7 +3,7 @@ Python program to convert audio to swing rhythm for remix or something
 
 ## How to use
 ### Preliminary preparations
-Create 1.5 times and 0.75 times the speed of an original sound source (Please use 3rd party software, e.g. DAW)
+Create 1.5 times and 0.75 times the speed of an original sound source (Please use 3rd party software, e.g. DAW). The original wav file should be synchronized to the tempo from beginning to end.
 
 ### Run program
 swingnizer.py <.wav file 1.5 times the speed> <.wav file 0.75 times the speed> <tempo> <length(second)> <output wav file>
