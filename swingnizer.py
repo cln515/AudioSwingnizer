@@ -91,7 +91,7 @@ cnt = 0
 buf_st = 0
 while True:
     #bpm = n, 60/(n*2) sec * framerate 
-    buf_en =  int(60.0*(cnt+1)/(tempo*2) * fr)
+    buf_en =  int(60.0*(cnt+1)/(tempo) * fr)
     if buf_en>=len(X_out)/ch:
         break
     sep = int((buf_st*rate_fast_length +buf_en*rate_slow_length)/2)
