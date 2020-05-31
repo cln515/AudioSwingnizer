@@ -9,7 +9,7 @@ Create 1.5 times and 0.75 times the speed of an original sound source (Please us
 swingnizer.py <.wav file 1.5 times the speed> <.wav file 0.75 times the speed> <tempo> <length(second)> <output wav file>
 
 #### Example
-$ swingnizer.py sample/fast.wav sample/slow.wav 170 10 sample/out.wav
+$ python swingnizer.py sample/fast.wav sample/slow.wav 170 10 sample/out.wav
 
 This program converts two eighth notes to a quarter triplet note and an eighth triplet note. If you want to convert two 16th notes to an eighth triplet note and a 16th triplet note, double the tempo of the input.
 
