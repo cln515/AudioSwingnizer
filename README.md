@@ -6,7 +6,7 @@ Python program to convert audio to swing rhythm for remix or something
 Create 1.5 times and 0.75 times the speed of an original sound source (Please use 3rd party software, e.g. DAW). The original wav file should be synchronized to the tempo from beginning to end.
 
 ### Run program
-swingnizer.py <.wav file 1.5 times the speed> <.wav file 0.75 times the speed> <tempo> <length(second)> <output wav file>
+$ python swingnizer.py <.wav file 1.5 times the speed> <.wav file 0.75 times the speed> <tempo> <length(second)> <output wav file>
 
 #### Example
 $ python swingnizer.py sample/fast.wav sample/slow.wav 170 10 sample/out.wav
@@ -15,6 +15,12 @@ This program converts two eighth notes to a quarter triplet note and an eighth t
 
 ## Demo
 https://www.youtube.com/watch?v=xmscpAhY_k4
+
+## What the program does
+
+Cut and paste the two sound source and mix the borders
+
+![](./img/algorithm.jpg)
 
 ## License
 [MIT](https://github.com/cln515/AudioSwingnizer/blob/master/LICENSE)
