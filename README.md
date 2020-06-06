@@ -13,5 +13,8 @@ $ python swingnizer.py sample/fast.wav sample/slow.wav 170 10 sample/out.wav
 
 This program converts two eighth notes to a quarter triplet note and an eighth triplet note. If you want to convert two 16th notes to an eighth triplet note and a 16th triplet note, double the tempo of the input.
 
+## Demo
+https://www.youtube.com/watch?v=xmscpAhY_k4
+
 ## License
 [MIT](https://github.com/cln515/AudioSwingnizer/blob/master/LICENSE)
